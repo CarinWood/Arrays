@@ -29,3 +29,21 @@ console.log(newArray)
 
 const lengthOfArray = numbers.length
 console.log("length of numbers array is: " + lengthOfArray)
+
+/* Exercise 6 */
+
+const newLength = numbers.push(28)
+console.log(newLength)
+
+/* Med push lägger man till ett nytt värde i slutet på arrayen. 
+Den ger tillbaka den nya längden på arrayen som i detta fall har ökat från 6 till 7 */
+
+/* Exercise 7 */
+
+const aNewArray = numbers.unshift(42)
+console.log(aNewArray)
+/* 
+Med unshift lägger man till ett nytt element i början på arrayen. Den ger tillbaka längden
+på den nya arrayen.  */
+
+/* Exercise 8 */
