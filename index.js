@@ -21,7 +21,7 @@ console.log(fourth)
 const second = numbers[1]
 const fifth = numbers[4]
 
-const newArray = {second, fifth}
+const newArray = [second, fifth]
 
 console.log(newArray)
 
