@@ -47,3 +47,17 @@ Med unshift lägger man till ett nytt element i början på arrayen. Den ger til
 på den nya arrayen.  */
 
 /* Exercise 8 */
+let newValue = numbers.pop()
+console.log("new value: " + newValue)
+console.log(numbers)
+
+/* Med pop deletas det sista elementet i arrayen.
+Metoden ger tillbaka det deletade elementet */
+
+/* Exercise 9 */
+const theNewValue = numbers.shift()
+console.log(theNewValue )
+
+/* Exercise 10 */
+
+console.log(numbers)
